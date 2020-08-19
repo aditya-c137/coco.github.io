@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+}
+
+h1{
+    font-size: 6em;
+    font-family: 'Roboto';
+    align-self: center;
+    color: #30273F;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.container {
+    height: 600;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 200px;
+}
+
+.canva {
+    position: absolute;
+    background-color: #D7A3F0;
+    z-index: -1;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
